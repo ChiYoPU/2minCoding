@@ -1,0 +1,8 @@
+/* html全体のスタイルを指定 */
+html{
+    /* これを指定することで、width・heightがpaddingを含む大きさになる */
+    box-sizing: border-box;
+    --bgColorMenu:#1d1d27;
+    /* アイコンが切り替わる速さの指定 */
+    --duration:.7s;
+}
