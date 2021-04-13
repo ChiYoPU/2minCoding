@@ -6,3 +6,11 @@ html{
     /* アイコンが切り替わる速さの指定 */
     --duration:.7s;
 }
+
+/* htmlの子要素のスタイルを指定 */
+html *,
+html *::before,
+html *::after{
+    /* inheritで親のプロパティを継承することができる */
+    box-sizing: inherit;
+}
