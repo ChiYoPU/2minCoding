@@ -14,3 +14,32 @@ html *::after{
     /* inheritで親のプロパティを継承することができる */
     box-sizing: inherit;
 }
+
+/* bodyのスタイルを指定 */
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    background-color: #ffb457;
+    /* -webkitでスマホでの動きを指定 */
+    -webkit-top-highlight-color: transparent;
+    /* varではhtmlで指定したスタイルが指定されている */
+    transition: background-color var(--duration);
+}
+
+
+/* menuのスタイルを指定 */
+.menu{
+    margin: 0;
+    display: flex;
+    /* Works well with 100% width  */
+    width: 32.05em;
+    font-size: 1.5em;
+    padding: 0 2.85em;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bgColorMenu);
+}
