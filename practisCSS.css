@@ -43,3 +43,45 @@ body{
     justify-content: center;
     background-color: var(--bgColorMenu);
 }
+
+/* menuitemのスタイルを指定 */
+.menu__item{
+    all: unset;
+    flex-grow: 1;
+    z-index: 100;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    border-radius: 50%;
+    align-items: center;
+    /* ブラウザに要素の変更の予測を伝える部分 */
+    will-change: transform;
+    justify-content: center;
+    padding: 0.55em 0 0.85em;
+    transition: transform var(--timeOut,var(--duration));
+}
+
+/* アイコン背景の●部分のスタイルを指定 */
+.menu__item::before{
+    content: "";
+    z-index: -1;
+    width: 4.2em;
+    height: 4.2em;
+    border-radius: 50%;
+    position: absolute;
+    /* X軸Y軸を基準とした拡大率を指定できる */
+    transform: scale(0);
+    /* 最初に指定した要素の変化速度などを指定 */
+    transition: background-color var(--duration),transform var(--duration);
+}
+
+/* 選択した時に少し上に描画される指定 */
+.menu__item.active{
+    transform: translate3d(0,-.8em,0);
+}
+
+/* アイコン背景の●部分のスタイルを指定 */
+.menu__item.active::before{
+    transform: scale(1);
+    background-color: var(--bgColorItem);
+}
