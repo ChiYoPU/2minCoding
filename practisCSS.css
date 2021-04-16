@@ -85,3 +85,54 @@ body{
     transform: scale(1);
     background-color: var(--bgColorItem);
 }
+
+/* アイコンのスタイルを指定 */
+.icon{
+    width: 2.6em;
+    height: 2.6em;
+    stroke: white;
+    /* ここから下はCSVの描画スタイル指定 */
+    fill: transparent;
+    stroke-width: 1pt;
+    stroke-miterlimit: 10;
+    stroke-linecap: round;
+    stroke-dasharray: 400;
+}
+
+/* animationプロパティを一括で指定 */
+.menu__item.active .icon{
+    animation: strok 1.5s reverse;
+}
+
+/* アニメーション終了時のスタイルを指定 */
+@keyframes strok{
+    100%{
+        stroke-dashoffset: 400;
+    }
+}
+
+/* menu__borderのスタイルを指定 */
+.menu__border{
+    left: 0;
+    bottom: 99%;
+    width: 10.9em;
+    height: 2.4em;
+    position: absolute;
+    clip-path: url(#menu);
+    will-change: transform;
+    background-color: var(--bgColorMenu);
+    transition: transform var(--timeOut, var(--duration));
+}
+
+
+.svg-container{
+    width: 0;
+    height: 0;
+}
+
+/* スマホの時のフォントサイズを指定 */
+@media screen and (max-width: 50em){
+    .menu{
+        font-size: .8em;
+    }
+}
