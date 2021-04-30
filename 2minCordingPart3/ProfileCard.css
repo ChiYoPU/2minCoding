@@ -10,3 +10,14 @@
     align-items: center;
     margin: 0 autos;
 }
+
+
+/* 実際にカードになる部分 */
+.border{
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
