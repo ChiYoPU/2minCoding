@@ -104,3 +104,13 @@ h2{
 .fa{
     opacity: 1;
 }
+
+
+h2{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
