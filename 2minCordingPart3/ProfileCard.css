@@ -114,3 +114,8 @@ h2{
     transition: opacity 1s;
 }
 
+
+.fa{
+    opacity: 0;
+    transition: opacity 1s;
+}
