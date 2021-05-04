@@ -62,3 +62,24 @@ h2{
 .fa{
     opacity: 1;
 }
+
+
+.caed1{
+    background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg')
+    center center no-repeat;
+    background-size: 300px;
+}
+
+.caed1:hover{
+    background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg')
+    left center no-repeat;
+    background-size: 600px;
+}
+
+h2{
+    opacity: 1;
+}
+
+.fa{
+    opacity: 1;
+}
