@@ -17,3 +17,11 @@ $shadow: .3rem .3rem .6rem var(--greyLight-2),
 -.2rem -.2rem .5rem var(--white);
 $inner-shadow: inset .2rem .2rem .5rem var(--greyLight-2),
 inset -.2rem -.2rem .5rem var(--white);
+
+
+/* befor after要素を指定 */
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
