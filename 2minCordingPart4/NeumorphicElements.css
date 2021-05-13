@@ -25,3 +25,16 @@ inset -.2rem -.2rem .5rem var(--white);
     padding: 0;
     box-sizing: inherit;
 }
+
+
+/* htmlのスタイルを指定 */
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    overflow-y: scroll;
+    background: var(--greyLight-1);
+
+    @media screen and (min-width: 900px){
+        font-size: 75%;
+    }
+}
