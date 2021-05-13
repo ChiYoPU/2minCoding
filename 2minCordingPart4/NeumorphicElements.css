@@ -38,3 +38,14 @@ html{
         font-size: 75%;
     }
 }
+
+
+/* containerのスタイルを指定 */
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: (--greyLight-1);
+}
