@@ -61,6 +61,8 @@ html{
     padding: 4rem;
     display: grid;
     grid-template-columns: 17.6rem 19rem 20.4rem;
+
+    /* repeat関数でgridのレスポンシブを指定 */
     grid-template-rows: repeat(autofit, min-content);
     grid-column-gap: 5rem;
     grid-row-gap: 2.5rem;
