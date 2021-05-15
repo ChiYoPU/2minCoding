@@ -116,4 +116,15 @@ html{
             }
         }
     }
+
+    /* トグルボタンがonになっている時のスタイルを指定 */
+    &input:checked{
+        & ~ label{
+            &::before{opacity: 1;}
+            &::after{
+                left: 57%;
+                background: var(--greyLight-1);
+            }
+        }
+    }
 }
