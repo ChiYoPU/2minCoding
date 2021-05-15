@@ -68,3 +68,14 @@ html{
     grid-row-gap: 2.5rem;
     align-items: center;
 }
+
+
+/* トグルボタンのスタイルを指定 */
+.switch{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    gird-gap: 3rem;
+    justify-self: center;
+    input{display: none;}
+}
