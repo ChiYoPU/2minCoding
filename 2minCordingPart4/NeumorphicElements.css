@@ -91,6 +91,18 @@ html{
             position: relative;
             cursor: pointer;
             border-radius: 1.6rem;
+
+            /* トグルボタンの●部分を指定 */
+            &::after{
+                content: "";
+                position: absolute;
+                left: .4rem;
+                width: 2.1rem;
+                height: 2.1rem;
+                border-radius: 50%;
+                background: var(--grayDark);
+                transition: all .4s ease;
+            }
         }
     }
 }
