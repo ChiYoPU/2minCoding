@@ -103,6 +103,17 @@ html{
                 background: var(--grayDark);
                 transition: all .4s ease;
             }
+
+            /* スイッチを切り替えた時の表示を指定 */
+            &::before{
+                content: '';
+                width: 100%;
+                height: 100%;
+                border-radius: inherit;
+                background: linear-gradient(330deg, var(--primary-dark)0%, var(--primary)50%, var(--primary-light)100%);
+                opacity: 0;
+                transition: all .4s ease;
+            }
         }
     }
 }
