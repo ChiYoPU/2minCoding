@@ -128,3 +128,14 @@ html{
         }
     }
 }
+
+
+/* チェックボックスのスタイルを指定 */
+.checkbox{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(2, 6rem);
+    grid-gap: 3rem;
+    justifi-content: center;
+    input{display: none;}
+}
