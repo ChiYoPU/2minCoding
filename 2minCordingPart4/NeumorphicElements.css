@@ -138,4 +138,14 @@ html{
     grid-gap: 3rem;
     justify-content: center;
     input{display: none;}
+    
+    &__1, &__2{
+        width: 6rem;
+        display: flex;
+        ustify-content: center;
+        align-items: center;
+        border-radius: .5rem;
+        width: 2.8rem;
+        height: 2.8rem;
+    }
 }
