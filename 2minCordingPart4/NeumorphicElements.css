@@ -138,7 +138,7 @@ html{
     grid-gap: 3rem;
     justify-content: center;
     input{display: none;}
-    
+
     &__1, &__2{
         width: 6rem;
         display: flex;
@@ -148,4 +148,6 @@ html{
         width: 2.8rem;
         height: 2.8rem;
     }
+
+    &:hover i {color: var(--primary);}
 }
