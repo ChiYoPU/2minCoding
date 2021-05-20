@@ -149,5 +149,12 @@ html{
         height: 2.8rem;
 
         &:hover i {color: var(--primary);}
+        
+        i{
+            font-size: 1.8rem;
+            font-width: 700;
+            color: var(--greyDark);
+            transition: .3s ease;
+        }
     }
 }
