@@ -147,7 +147,7 @@ html{
         border-radius: .5rem;
         width: 2.8rem;
         height: 2.8rem;
-    }
 
-    &:hover i {color: var(--primary);}
+        &:hover i {color: var(--primary);}
+    }
 }
