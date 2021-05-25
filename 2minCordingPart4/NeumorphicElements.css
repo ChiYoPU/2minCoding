@@ -187,5 +187,17 @@ html{
                 }
             }
         }
+        
+        label{
+            box-shadow: $shadow;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            width: 2.8rem;
+            heirht: 2.8rem;
+            border-radius: 50%;
+        }
     }
 }
