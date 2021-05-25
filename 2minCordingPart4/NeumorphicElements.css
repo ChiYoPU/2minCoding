@@ -177,7 +177,7 @@ html{
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     input{display: none;}
-    
+
     &__1, &__2{
         & input:checked{
             & ~ label{
