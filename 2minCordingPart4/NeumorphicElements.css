@@ -187,7 +187,7 @@ html{
                 }
             }
         }
-        
+
         label{
             box-shadow: $shadow;
             position: relative;
@@ -198,9 +198,9 @@ html{
             width: 2.8rem;
             heirht: 2.8rem;
             border-radius: 50%;
-            
+
             &:hover {&::after{background: var(--primary);}}
-            
+
             &::after{
                 content: "";
                 position: absolute;
