@@ -227,4 +227,13 @@ html{
     justify-content: center;
     cursor: pointer;
     transition: .3s ease;
+
+    &__primary{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        background: var(--primary);
+        box-shadow: inset .2rem .2rem 1rem var(--primary-light),
+                    inset .2rem .2rem 1rem var(--primary-dark), &shadow;
+        color: var(--greyLight);
+    }
 }
