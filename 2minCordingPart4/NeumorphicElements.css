@@ -213,3 +213,18 @@ html{
         }
     }
 }
+
+
+/* ボタンのスタイルを実装 */
+.btn{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 1rem;
+    box-shadow: $shadow;
+    justify-self: center;
+    display: felx;
+    align-item: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s ease;
+}
