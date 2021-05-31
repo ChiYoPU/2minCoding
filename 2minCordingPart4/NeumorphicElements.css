@@ -250,5 +250,7 @@ html{
         color: var(--grayDark);
 
         &:hover{color: var(--primary);}
+
+        &:active{box-shadow: $inner-shadow;}
     }
 }
