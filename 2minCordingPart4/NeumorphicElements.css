@@ -237,5 +237,10 @@ html{
         color: var(--greyLight);
 
         &:hover{color: var(--white);}
+
+        &:active{
+            box-shadow: inset .2rem .2rem 1rem var(--primary-dark),
+            inset -.2rem -.2rem 1rem var(--primary-light);
+        }
     }
 }
