@@ -253,4 +253,8 @@ html{
 
         &:active{box-shadow: $inner-shadow;}
     }
+
+    p{
+        font-size: 1.6rem;
+    }
 }
