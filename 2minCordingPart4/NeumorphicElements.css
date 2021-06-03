@@ -258,3 +258,19 @@ html{
         font-size: 1.6rem;
     }
 }
+
+
+/* 時計のスタイルを実装 */
+.clock{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    width: 12rem;
+    height: 12rem;
+    justify-content: center;
+    box-shadow: $shadow;
+    border-radius: 50%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+}
