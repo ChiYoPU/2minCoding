@@ -308,4 +308,12 @@ html{
         background: var(--primary);
         z-index: 300;
     }
+    
+    .marker{
+        width: 95%;
+        height: 95%;
+        border-radius: 50%;
+        position: relative;
+        box-shadow: $inner-shadow;
+    }
 }
