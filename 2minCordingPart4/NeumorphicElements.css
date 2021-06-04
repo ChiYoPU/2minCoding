@@ -281,4 +281,10 @@ html{
         border-radius: .2rem;
         z-index: 200;
     }
+    
+    .hours{
+        width: .4rem;
+        height: 3.2rem;
+        background: var(--greyLight-3);
+    }
 }
