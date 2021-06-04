@@ -273,4 +273,12 @@ html{
     justify-self: center;
     align-items: center;
     position: relative;
+    
+    .hand{
+        position: absolute;
+        transform-origin: bottom;
+        bottom: 6rem;
+        border-radius: .2rem;
+        z-index: 200;
+    }
 }
