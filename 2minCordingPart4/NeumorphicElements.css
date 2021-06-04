@@ -293,4 +293,10 @@ html{
         height: 4.6rem;
         background: var(--greyDark);
     }
+    
+    .seconds{
+        width: .2rem;
+        height: 5.2rem;
+        background: var(--primary);
+    }
 }
