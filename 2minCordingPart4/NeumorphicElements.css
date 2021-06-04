@@ -287,4 +287,10 @@ html{
         height: 3.2rem;
         background: var(--greyLight-3);
     }
+    
+    .minutes{
+        width: .4rem;
+        height: 4.6rem;
+        background: var(--greyDark);
+    }
 }
