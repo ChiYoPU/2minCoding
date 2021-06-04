@@ -299,4 +299,13 @@ html{
         height: 5.2rem;
         background: var(--primary);
     }
+    
+    .point{
+        position: abusolute;
+        width: .8rem;
+        height: .8rem;
+        border-radius: 50%;
+        background: var(--primary);
+        z-index: 300;
+    }
 }
