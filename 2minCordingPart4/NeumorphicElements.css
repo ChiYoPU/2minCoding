@@ -315,5 +315,18 @@ html{
         border-radius: 50%;
         position: relative;
         box-shadow: $inner-shadow;
+        
+        &::after{
+            content:'';
+            width: 60%;
+            height: 60%;
+            position: absolute;
+            box-shadow: inset 1px 1px 1px var(--greyLight-2),
+            inset 1px 1px 1px var(--white);
+            border-radius: 50%;
+            top: 20%;
+            left: 20%;
+            filter: blur(1px);
+        }
     }
 }
