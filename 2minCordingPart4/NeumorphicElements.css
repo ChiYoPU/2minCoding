@@ -347,5 +347,10 @@ html{
             height: .2rem;
             top: 5.6rem
         }
+        
+        &__1{top: 2%;}
+        &__2{top: 98%; transform: translateY(-.6rem);}
+        &__3{left: 2%;}
+        &__4{left: 98%; transform: translateX(-.6rem);}
     }
 }
