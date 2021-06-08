@@ -328,5 +328,12 @@ html{
             left: 20%;
             filter: blur(1px);
         }
+        
+        &__1, &__2, &__3, &__4{
+            position: absolute;
+            border-radius: .1rem;
+            box-shadow: inset 1px 1px 1px var(--greyLight-2),
+            inset -1px -1px 1px var(--white);
+        }
     }
 }
