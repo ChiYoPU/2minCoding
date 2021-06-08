@@ -335,5 +335,11 @@ html{
             box-shadow: inset 1px 1px 1px var(--greyLight-2),
             inset -1px -1px 1px var(--white);
         }
+        
+        &__1, &__2{
+            width: .2rem;
+            height: .6rem;
+            left: 5.6rem;
+        }
     }
 }
