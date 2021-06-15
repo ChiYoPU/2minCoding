@@ -7,6 +7,8 @@
 
 .typing-demo{
   width: 22ch;
+  /*22文字なので、22ステップ*/
+  /*22ステップ終了後に、継続して点滅する*/
   animation: typing 2s steps(22), blink .5s step-end infinite altenate;
   white-space: nowrap;
   /*書き終わって点滅している所*/
