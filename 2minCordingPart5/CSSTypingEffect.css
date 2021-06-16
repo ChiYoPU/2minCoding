@@ -16,3 +16,10 @@
   font-family: monospace;
   font-size: 2em;
 }
+
+@keyframes typing{
+  /*typingアニメーションの開始位置を指定*/
+  from{
+    wigth: 0;
+  }
+}
