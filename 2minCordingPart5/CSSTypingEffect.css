@@ -23,3 +23,10 @@
     wigth: 0;
   }
 }
+
+@keyframes blink{
+  /*blinkアニメーションの開始位置を指定*/
+  50%{
+    border-color: transparent;
+  }
+}
