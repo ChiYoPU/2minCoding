@@ -19,3 +19,11 @@
   --point-3-scale: 5;
   --point-4-scale: 4;
 }
+
+
+.description p{
+  margin: 0;
+  font-size: 12px;
+  z-index: -1;
+  color: #ffffff;
+}
