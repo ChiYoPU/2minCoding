@@ -27,3 +27,10 @@
   z-index: -1;
   color: #ffffff;
 }
+
+
+.image-indicators img{
+  width: 100%;
+  border-radius: 10px;
+  transition: width 0.4s ease, transform 0.4s ease;
+}
