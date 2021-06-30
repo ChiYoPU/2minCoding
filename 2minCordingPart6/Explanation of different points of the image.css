@@ -34,3 +34,13 @@
   border-radius: 10px;
   transition: width 0.4s ease, transform 0.4s ease;
 }
+
+
+.image-indicators{
+  position: relative;
+  width: 400px;
+  border-radius: 10px;
+  over-flow: hidden;
+  font-size: 0;
+  margin: auto;
+}
