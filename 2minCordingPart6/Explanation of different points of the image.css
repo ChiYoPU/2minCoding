@@ -1,46 +1,46 @@
 :root{
-  --point-1-top: 220px;
-  --point-1left: 120px;
+    --point-1-top: 220px;
+    --point-1left: 120px;
 
-  --point-2-top: 20px;
-  --point-2-left: 220px;
+    --point-2-top: 20px;
+    --point-2-left: 220px;
 
-  --point-3-top: 130px;
-  --point-3-left: 10px;
+    --point-3-top: 130px;
+    --point-3-left: 10px;
 
-  --point-4-top: 155px;
-  --point-4-left: 260px;
+    --point-4-top: 155px;
+    --point-4-left: 260px;
 
-  --point-width: 15px;
-  --point-height: 15px;
+    --point-width: 15px;
+    --point-height: 15px;
 
-  --point-1-scale: 5;
-  --point-2-scale: 3;
-  --point-3-scale: 5;
-  --point-4-scale: 4;
+    --point-1-scale: 5;
+    --point-2-scale: 3;
+    --point-3-scale: 5;
+    --point-4-scale: 4;
 }
 
 
 .description p{
-  margin: 0;
-  font-size: 12px;
-  z-index: -1;
-  color: #ffffff;
+    margin: 0;
+    font-size: 12px;
+    z-index: -1;
+    color: #ffffff;
 }
 
 
 .image-indicators img{
-  width: 100%;
-  border-radius: 10px;
-  transition: width 0.4s ease, transform 0.4s ease;
+    width: 100%;
+    border-radius: 10px;
+    transition: width 0.4s ease, transform 0.4s ease;
 }
 
 
 .image-indicators{
-  position: relative;
-  width: 400px;
-  border-radius: 10px;
-  over-flow: hidden;
-  font-size: 0;
-  margin: auto;
+    position: relative;
+    width: 400px;
+    border-radius: 10px;
+    over-flow: hidden;
+    font-size: 0;
+    margin: auto;
 }
