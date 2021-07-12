@@ -64,3 +64,16 @@
     border-radius: 60px;
     transform: scale(1);
 }
+
+
+.image-indicators>label>span>span {
+    display: inline-block;
+    vertical-align: 20px;
+    background-color: rgba(33, 150, 243, 1);
+    width: 10px;
+    height: 10px;
+    transform: scale(0);
+    border-radius: 60px;
+    animation: scaleGrow 3s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    animation-play-state: running;
+}
