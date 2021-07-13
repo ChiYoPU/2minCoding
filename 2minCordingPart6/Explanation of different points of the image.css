@@ -77,3 +77,15 @@
     animation: scaleGrow 3s cubic-bezier(0, 0.2, 0.8, 1) infinite;
     animation-play-state: running;
 }
+
+
+.keyframes scaleGrow{
+    from{
+        transform: scale(0);
+        background-color: rgba(33, 150, 243, 1);
+    }
+    to{
+        transform: scale(3);
+        opaciti: 0;
+    }
+}
