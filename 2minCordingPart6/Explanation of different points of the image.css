@@ -79,7 +79,7 @@
 }
 
 
-.keyframes scaleGrow{
+@keyframes scaleGrow{
     from{
         transform: scale(0);
         background-color: rgba(33, 150, 243, 1);
