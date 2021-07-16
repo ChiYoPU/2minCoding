@@ -102,3 +102,14 @@
         transform: scale(1);
     }
 }
+
+
+.point{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    z-index: 2;
+    transition-property: width,height,left,top;
+    transition-dealy:650me
+}
