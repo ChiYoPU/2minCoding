@@ -113,3 +113,12 @@
     transition-property: width,height,left,top;
     transition-dealy:650me
 }
+
+
+.point:checked {
+    top: -50% !important;
+    left: -50% !important;
+    width: 200%;
+    height: 200%;
+    z-index: 9;
+}
