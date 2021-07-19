@@ -122,3 +122,11 @@
     height: 200%;
     z-index: 9;
 }
+
+
+.point:checked ~ label{
+    opacity: 0;
+    pointer-events: none;
+    z-index: -1;
+    transition: opacity 0.3s ease-out 0s;
+}
