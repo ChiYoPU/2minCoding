@@ -130,3 +130,15 @@
     z-index: -1;
     transition: opacity 0.3s ease-out 0s;
 }
+
+
+.description{
+    position: relative;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 1px 10px 10px;
+    color: black;
+    z-index: 1;
+}
