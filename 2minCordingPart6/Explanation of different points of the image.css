@@ -142,3 +142,12 @@
     color: black;
     z-index: 1;
 }
+
+
+.description div:first-child{
+    display: block;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 300ms;
+    transition: opacity 0.3s ease-out .5s;
+}
