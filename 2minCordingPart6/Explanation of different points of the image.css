@@ -144,6 +144,11 @@
 }
 
 
+.description div{
+    display: none;
+}
+
+
 .description div:first-child{
     display: block;
     opacity: 1;
