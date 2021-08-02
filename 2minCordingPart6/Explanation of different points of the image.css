@@ -156,3 +156,8 @@
     transition-duration: 300ms;
     transition: opacity 0.3s ease-out .5s;
 }
+
+
+.description div:first-child p{
+    color: #000000;
+}
