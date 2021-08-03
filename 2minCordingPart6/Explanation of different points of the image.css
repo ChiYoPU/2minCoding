@@ -161,3 +161,8 @@
 .description div:first-child p{
     color: #000000;
 }
+
+
+.description p{
+    line-height: 18px;
+}
