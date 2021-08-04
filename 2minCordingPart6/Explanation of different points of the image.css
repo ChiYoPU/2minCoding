@@ -193,4 +193,8 @@
         transform-origin: calc(var(--point-#{$i}-left)) calc(var(--point-#{$i}-top));
         transform: scale(var(--point-#{$i}-scale));
     }
+
+    #point-#{$i}:hover ~ img {
+        transform-origin: calc(var(--point-#{$i}-left)) calc(var(--point-#{$i}-top));
+    }
 }
