@@ -166,3 +166,11 @@
 .description p{
     line-height: 18px;
 }
+
+
+.point:checked ~ .description{
+    background: rgb(191 191 191 / 30%);
+    background-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15.0px);
+    border: 1px solid rgba(255,255,255,0.18);
+}
