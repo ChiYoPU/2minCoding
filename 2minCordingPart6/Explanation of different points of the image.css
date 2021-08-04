@@ -188,4 +188,9 @@
         left: var(--point-#{$i}-left);
         top: var(--point-#{$i}-top);
     }
+
+    #point-#{$i}:checked ~ img {
+        transform-origin: calc(var(--point-#{$i}-left)) calc(var(--point-#{$i}-top));
+        transform: scale(var(--point-#{$i}-scale));
+    }
 }
