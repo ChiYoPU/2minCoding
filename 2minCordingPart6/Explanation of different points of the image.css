@@ -174,3 +174,18 @@
     -webkit-backdrop-filter: blur(15.0px);
     border: 1px solid rgba(255,255,255,0.18);
 }
+
+
+@for $i from 1 through 4{
+    $value: $i + 1;
+    
+    #label-#{$i} {
+        top: var(--point-#{$i}-top);
+        left: var(--point-#{$i}-left);
+    }
+
+     #point-#{$i} {
+        left: var(--point-#{$i}-left);
+        top: var(--point-#{$i}-top);
+    }
+}
