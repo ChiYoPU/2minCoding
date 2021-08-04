@@ -203,4 +203,8 @@
         opacity: 0;
         transition: opacity 0s ease-out 0s;
     }
+
+    #point-#{$i}:checked ~ .description div:nth-child(#{$value}) {
+        display: block;
+    }
 }
