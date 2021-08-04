@@ -207,4 +207,19 @@
     #point-#{$i}:checked ~ .description div:nth-child(#{$value}) {
         display: block;
     }
+
+    #point-#{$i}:checked ~ .description div:nth-child(#{$value}) p:first-child {
+        width: 0;
+        opacity: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        -webkit-animation: type2 2s steps(40, end);
+        animation: type2 2s steps(40, end);
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
+        -webkit-animation-delay: .5s;
+        animation-delay: .5s;
+        animation-play-state: running;
+    }
 }
