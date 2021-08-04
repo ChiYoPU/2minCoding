@@ -197,4 +197,10 @@
     #point-#{$i}:hover ~ img {
         transform-origin: calc(var(--point-#{$i}-left)) calc(var(--point-#{$i}-top));
     }
+
+    #point-#{$i}:checked ~ .description div:first-child {
+        height: 0;
+        opacity: 0;
+        transition: opacity 0s ease-out 0s;
+    }
 }
