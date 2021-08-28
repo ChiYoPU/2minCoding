@@ -13,7 +13,7 @@ body{
   --text-color: hsl(0 95% 60%);
   --bg-color: hsl(0 0% 100%);
   --bg-size: 200px;
-  
+
   display: grid;
   place-content: center;
   place-items: center;
