@@ -22,3 +22,7 @@ body{
   font-family: "Dela Gothic One",sans-serif;
   background-color: var(--bg-color);
 }
+
+body::before{
+  --size: 150vmax;
+}
