@@ -25,7 +25,7 @@ body{
 
 body::before{
   --size: 150vmax;
-  
+
   grid-area: body;
   content: "";
   inline-size: var(--size);
