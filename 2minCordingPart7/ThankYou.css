@@ -43,3 +43,9 @@ body::before{
     animation-duration: 0s;
   }
 }
+
+@keyframes bg{
+  to {
+    background-position: 0 calc(var(--bg-size) * -1);
+  }
+}
