@@ -49,3 +49,11 @@ body::before{
     background-position: 0 calc(var(--bg-size) * -1);
   }
 }
+
+.text{
+  grid-area: body;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: clamp(1rem, 10vmin, 6rem);
+}
