@@ -57,3 +57,8 @@ body::before{
   flex-direction: column;
   font-size: clamp(1rem, 10vmin, 6rem);
 }
+
+.heading span {
+  display: block;
+  text-transform: uppercase;
+}
