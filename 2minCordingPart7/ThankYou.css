@@ -62,3 +62,7 @@ body::before{
   display: block;
   text-transform: uppercase;
 }
+
+.heading span.filled{
+  color: var(--text-color);
+}
