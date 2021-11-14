@@ -66,3 +66,10 @@ body::before{
 .heading span.filled{
   color: var(--text-color);
 }
+
+.heading span:not(.filled){
+  --stroke: min(0.25vmin, 2px)var(var(--text-color));
+  color: var(--bg-color);
+  -webkit-text-stroke: var(--stroke);
+  text-strok: var(--stroke);
+}
