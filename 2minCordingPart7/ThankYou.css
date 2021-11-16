@@ -73,3 +73,11 @@ body::before{
   -webkit-text-stroke: var(--stroke);
   text-strok: var(--stroke);
 }
+
+.subheading{
+  position: relative;
+  margin-block-start: 1rem;
+  margin-inline-start: auto;
+  font-size: 0.428em;
+  color: var(--text-color);
+}
