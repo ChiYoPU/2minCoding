@@ -26,3 +26,8 @@ h1{
     position: relative;
     font-size: 5rem;
 }
+
+html{
+    block-size: 100%;
+    inline-size: 100%;
+}
