@@ -41,3 +41,9 @@ body{
     place-content: center;
     font-family: system-ui, sans-serif;
 }
+
+@media(orientation: landscape){
+    body{
+        grid-auto-flow: column;
+    }
+}
