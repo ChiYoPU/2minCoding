@@ -4,3 +4,7 @@ html, body{
     overflow: hidden;
     font-family: "Sen";
 }
+
+*{
+    box-sizing: border-box;
+}
