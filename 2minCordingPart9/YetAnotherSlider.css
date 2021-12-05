@@ -5,6 +5,7 @@ html, body{
     font-family: "Sen";
 }
 
+/* のスタイルを実装 */
 *{
     box-sizing: border-box;
 }
