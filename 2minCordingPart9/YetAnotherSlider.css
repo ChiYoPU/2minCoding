@@ -8,4 +8,8 @@ html, body{
 /* のスタイルを実装 */
 *{
     box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    cursor: none;
+    -webkit-user-drag: none;
 }
