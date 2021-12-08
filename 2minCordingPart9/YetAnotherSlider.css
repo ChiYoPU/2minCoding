@@ -16,4 +16,15 @@ html, body{
 
 #main{
     display: flex;
+
+    .part{
+        flex: 1;
+
+        .section{
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+        }
+    }
 }
