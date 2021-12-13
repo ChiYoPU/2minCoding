@@ -29,6 +29,11 @@ html, body{
         
         img{
             width: 100vh;
+            height: 100vh;
+            object-fit: cover;
+            position: absolute;
+            left: var(--x);
+            pointer-events: none;
         }
     }
 }
