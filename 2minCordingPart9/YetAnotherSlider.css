@@ -41,7 +41,4 @@ html, body{
 .cursor{
     width: var(--size);
     height: var(--size);
-    position: absolute;
-    top: 0;
-    left: 0;
 }
