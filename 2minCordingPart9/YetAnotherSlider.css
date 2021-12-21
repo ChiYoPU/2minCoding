@@ -47,4 +47,12 @@ html, body{
     z-index: 999;
     pointer-events: none;
     mix-blend-mode: difference;
+    
+    &-f{
+        width: var(--size);
+        height: var(--size);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
