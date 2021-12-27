@@ -62,3 +62,11 @@ html, body{
         opacity: .5;
     }
 }
+
+.buttons{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+}
