@@ -89,5 +89,9 @@ html, body{
         &.prev:active{
             transform: translateY(8xp);
         }
+
+        &.next:active{
+            transform: translateY(-1) translateY(8px);
+        }
     }
 }
