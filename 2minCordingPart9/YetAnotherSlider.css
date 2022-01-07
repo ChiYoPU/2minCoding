@@ -110,3 +110,11 @@ h1{
     mix-blend-mode: overlay;
     pointer-events: none;
 }
+
+.content{
+    width: 90%;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
