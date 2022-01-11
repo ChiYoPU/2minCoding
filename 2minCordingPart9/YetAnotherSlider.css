@@ -117,4 +117,8 @@ h1{
     left: 0;
     right: 0;
     margin: auto;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    font-size: .8em;
 }
