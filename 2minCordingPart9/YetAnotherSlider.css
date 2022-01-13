@@ -122,4 +122,8 @@ h1{
     z-index: 99;
     font-size: .8em;
     color: white;
+    
+    p{
+        margin: .5em auto;
+    }
 }
