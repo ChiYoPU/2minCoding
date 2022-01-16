@@ -126,4 +126,9 @@ h1{
     p{
         margin: .5em auto;
     }
+
+    kbd{
+        width: 15px;
+        height: 15px;
+    }
 }
