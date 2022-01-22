@@ -141,5 +141,9 @@ h1{
         color: rgba(227, 227, 227, 0.78);
         text-decoration: none;
         border-bottom: 1px solid currentColor;
+
+        &:hover{
+            padding-bottom: 1px;
+        }
     }
 }
