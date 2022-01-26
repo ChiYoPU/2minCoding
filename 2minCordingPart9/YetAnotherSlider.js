@@ -10,3 +10,7 @@ let images = [
 
 let current = 0;
 let playong = false;
+
+for (let i in images) {
+  new Image().src = images[i];
+}
