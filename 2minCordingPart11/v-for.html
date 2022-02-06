@@ -8,7 +8,9 @@
 <div id="app">
     <ul>
         <li v-for="tab in tabNames">
-            {{tabs{tab}}
+            <a href="#" v-on: click.prepend='onclick(tab)'>
+                {{tabs{tab}}
+            </a>
         </li>
     </ul>
 </div>
