@@ -12,6 +12,11 @@ Vue.component('tab3',{
 
 new Vue({
     el: '#app',
+    methods: {
+        onclick: function(tab){
+            this.current = tab;
+        }
+    },
     data: {
         current: 'tab1',
         tabs: {
