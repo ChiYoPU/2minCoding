@@ -9,15 +9,14 @@
     <div id="container">
     <ul>
         <li v-for="tab in tabNames">
-            <a href="#" v-on: click.prepend='onclick(tab)'>
-                {{tabs[tab]}}
+            <a href="#" v-on:click.prevent="onclick(tab)">
+                {{ tabs[tab] }}
             </a>
         </li>
     </ul>
 
-
     <keep-alive>
-        <component v-bind: is= "currentTab"></component>
+        <component v-bind:is="currentTab"></component>
     </keep-alive>
     </div>
 </div>

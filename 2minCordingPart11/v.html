@@ -9,7 +9,9 @@
     <div id="container">
     <ul>
         <li v-for="tab in tabNames">
-            <a href="#" v-on:click.prevent="onclick(tab)">{{ tabs[tab] }}</a>
+            <a href="#" v-on:click.prevent="onclick(tab)">
+                {{ tabs[tab] }}
+            </a>
         </li>
     </ul>
 
