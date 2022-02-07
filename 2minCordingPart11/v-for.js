@@ -21,11 +21,10 @@ new Vue({
     computed: {
         tabNames: function(){
             return Object.keys(this.tabs);
+        },
+        currentTab: function(){
+            return this.current;
         }
-    },
-
-    currentTab: function(){
-        return this.current;
     },
 
     data: {
