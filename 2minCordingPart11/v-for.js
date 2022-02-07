@@ -17,6 +17,11 @@ new Vue({
             this.current = tab;
         }
     },
+
+    currentTab: function(){
+        return 'tab-' + this.current;
+    },
+
     data: {
         current: 'tab1',
         tabs: {
