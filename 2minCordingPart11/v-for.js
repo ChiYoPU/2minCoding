@@ -18,6 +18,12 @@ new Vue({
         }
     },
 
+    computed: {
+        tabNames: function(){
+            return Object.keys(this.tabs);
+        }
+    },
+
     currentTab: function(){
         return 'tab-' + this.current;
     },
