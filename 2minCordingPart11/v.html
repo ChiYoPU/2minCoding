@@ -9,9 +9,13 @@
     <div id="container">
     <ul>
         <li v-for="tab in tabNames">
-            {{tab}}
+            <a href="#" v-on:click.prevent="onclick(tab)">{{ tabs[tab] }}</a>
         </li>
     </ul>
+
+    <keep-alive>
+        <component v-bind:is="currentTab"></component>
+    </keep-alive>
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
