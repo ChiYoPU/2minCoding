@@ -5,6 +5,7 @@ ul{
 }
 
 ul li{
+    display: -webkit-box;
     width: 150px;
     height: 35px;
     float: left;
@@ -12,12 +13,14 @@ ul li{
     background: rgb(211, 199, 199);
     border: solid;
     border-color: black;
+    -webkit-box-align: center;
 }
 
-ul li:first-child{
-    border-top-left-radius: 30%;
-}
 
-ul li:last-child{
-    border-top-right-radius: 30%;
+ul li a{
+    position: absolute;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
 }
