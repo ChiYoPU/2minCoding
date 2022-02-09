@@ -9,4 +9,15 @@ ul li{
     height: 50px;
     float: left;
     line-height: 100px;
+    background: rgb(211, 199, 199);
+    border: solid;
+    border-color: black;
+}
+
+ul li:first-child{
+    border-top-left-radius: 30%;
+}
+
+ul li:last-child{
+    border-top-right-radius: 30%;
 }
