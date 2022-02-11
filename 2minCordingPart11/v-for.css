@@ -5,22 +5,18 @@ ul{
 }
 
 ul li{
-    display: -webkit-box;
-    width: 150px;
-    height: 35px;
+    list-style-type: none;
     float: left;
-    line-height: 100px;
-    background: rgb(211, 199, 199);
-    border: solid;
-    border-color: black;
-    -webkit-box-align: center;
+    line-height: 160%;
+    width: 150px;
+    height: 40px;
 }
 
-
-ul li a{
-    position: absolute;
+ul li a {
     display: block;
     text-align: center;
     text-decoration: none;
+    background-color: #f8f1b3;
     color: #000;
+    border: solid 1px Black;
 }
