@@ -24,10 +24,8 @@ ul li a {
     border: solid 1px Black;
 }
 
-.comp {
-    display: inline;
-    border: 1px solid #000000;
-    background-color: white;
-    border-top: none;
-    padding: 15px;
+#container div{
+    text-align: center;
+    background-color: #e2fdc9;
+    border: solid 1px Black;
 }
