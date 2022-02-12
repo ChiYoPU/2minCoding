@@ -9,7 +9,6 @@ ul{
 }
 
 ul li{
-    list-style-type: none;
     float: left;
     line-height: 160%;
     width: 150px;
