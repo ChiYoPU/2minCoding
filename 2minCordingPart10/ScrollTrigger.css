@@ -19,3 +19,9 @@ body {
 
 h1 { font-size: 5rem }
 h2 { font-size: 2rem }
+
+img {
+  width: 100%;
+  height: auto;
+  background: #f0f0f0;
+}
